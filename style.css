@@ -1,0 +1,404 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.hero{
+  display: flex;
+  height: 85vh;
+  width: 100%;
+  background-color: #ACFADF;
+}
+
+.frame{
+  height: 500px;
+  width: 500px;
+  margin-left: 90px;
+  margin-top: 50px;
+}
+
+.cartoon{
+  height: 500px;
+  width: 250px;
+  position: absolute;
+  left: 230px;
+  top: 58px;
+}
+
+.anime{
+  flex: 1;
+  position: relative;
+}
+
+.hero-text{
+  flex:1;
+  margin-top: 100px;
+  font-size: 40px;
+  font-family: 'Bebas Neue', sans-serif;
+  color: #191825;
+}
+
+.sudhan{
+  color: #191970;
+}
+
+.cartoon:hover {
+  left: 250px;
+}
+
+.profile{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 130px;
+}
+
+.profile-img{
+height: 200px;
+width: 200px;
+border-radius: 50%;
+margin: 0;
+padding: 0;
+}
+
+.profile-text{
+margin-top: 10px;
+font-size: 2rem;
+font-family: 'Montserrat', sans-serif;
+font-weight: 700;
+color: #191825;
+}
+
+.summary{
+  padding: 40px;
+  font-family: 'Montserrat', sans-serif;
+  width: 400px;
+  text-align: center;
+}
+
+.sum-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 130px;
+}
+
+.main{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-contaienr{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card{
+  margin-bottom: 50px;
+}
+
+.edu{
+  width: 50%;
+}
+.edu>img{
+  height: 170px;
+  width: 170px;
+  float: left;
+}
+
+.card-title,.card-para{
+  font-family: 'Montserrat',sans-serif;
+  padding-left: 190px;
+}
+
+.card-title{
+  padding-bottom: 10px;
+}
+
+.skill{
+  width: 30%;
+}
+
+.skill>img{
+  height: 150px;
+  width: 170px;
+  float: left;
+}
+
+.projects-grid{
+  font-family: 'Bebas Neue', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 150px;
+}
+
+.projects-grid>h2{
+  margin-top: 100px;
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+.grid-Container{
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  gap:20px
+}
+
+.items{
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  background-color: #f5f5f5;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.items>a>img{
+  max-width: 100%;
+  height: auto;
+}
+
+.items>a{
+  text-decoration: none;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: larger;
+  color: #191825;
+}
+
+.items:hover{
+  background-color: #191825;
+  padding: 15px;
+}
+
+marquee{
+  padding: 10px;
+  background-color: #ACFADF;
+  color: #191825;
+  font-family: 'Bebas Neue',sans-serif;
+  font-size: 2rem;
+  font-weight: 900;
+  margin-bottom: 50px;
+}
+
+.button-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  margin-bottom: 100px;
+}
+
+.resume-button{
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.resume-button a{
+  background-image: linear-gradient(to right, #1CD8D2 0%, #93EDC7  51%, #1CD8D2  100%);
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  text-decoration: none;
+  font-family: 'Montserrat',sans-serif;
+}
+
+.contact-button{
+  text-align: center;
+}
+
+         
+.contact-button a {
+  background-image: linear-gradient(to right, #1CD8D2 0%, #93EDC7  51%, #1CD8D2  100%);
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  text-decoration: none;
+  font-family: 'Montserrat',sans-serif;
+}
+
+.contact-button a:hover,.resume-button a:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+  background-color: #ACFADF;
+}
+
+.links>a{
+  text-decoration: none;
+  color: #191825;
+  font-weight: 700;
+  font-family: 'Montserrat',sans-serif;
+}
+
+.links>a:hover{
+  color: #191970;
+}
+
+.links{
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width:50%
+}
+
+
+@media (max-width:950px) {
+    .hero{
+        height: 260px;
+    }
+    
+    .frame {
+      height: 250px;
+      width: 250px;
+      margin-left: 0px;
+      margin-top: 30px;
+    }
+
+    .cartoon {
+      height: 250px;
+      width: 120px;
+      left: 55%;
+      transform: translateX(-50%);
+      top: 30px;
+    }
+
+    .hero-text {
+      padding: 0;
+      margin-top: 50px;
+      font-size: 20px;
+    }
+
+    .profile{
+      margin-top: 80px;
+      margin-bottom: 30px;
+    }
+
+    .profile-img{
+      height: 150px;
+      width: 150px;
+    }
+
+    .profile-text{
+      font-size: 1.5rem;
+    }
+  }
+
+  /* Media query for screens smaller than 480px (typical mobile size) */
+  @media (max-width: 680px) {
+
+    .hero{
+        height: 200px;
+    }
+    .frame {
+      height: 200px;
+      width: 200px;
+      margin-left: 0px;
+      margin-top: 15px;
+    }
+
+    .cartoon {
+      height: 200px;
+      width: 100px;
+      top: 15px;
+      left: 110px;
+    }
+
+    .hero-text {
+      font-size: 10px;
+      margin-top: 60px;
+      margin-left: 0px;
+    }
+
+    .profile-img{
+      height: 120px;
+      width: 120px;
+    }
+
+    .profile{
+      margin-top: 70px;
+      margin-bottom: 0;
+    }
+
+    .profile-text{
+      font-size: 1rem;
+    }
+
+    .summary{
+      width: 250px;
+    }
+
+    .sum-container{
+      margin-bottom: 70px;
+    }
+
+    .card{
+      width: 100%;
+      display: block;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    .edu>img,.skill>img{
+      float: none;
+      margin-bottom: 10px;
+    }
+
+    .card-title,.card-para{
+      padding: 0;
+    }
+
+    .skill>.card-para,.skill>.card-title{
+      padding: 0;
+    }
+
+    .card-contaienr{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 250px;
+    }
+
+    .footer{
+      font-size: 10px;
+    }
+
+
+  }
+
